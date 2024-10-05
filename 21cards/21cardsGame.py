@@ -55,7 +55,7 @@ class shuffle:
             """
             
             Here is where this whole program runs on.
-            This the brain of it.
+            This is the brain of it.
             
             This works by 2d stack algorithm but it is modified a bit.
             It'll append the first-index word to the deck1 and then-
