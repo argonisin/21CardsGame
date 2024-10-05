@@ -97,24 +97,12 @@ def guess(wordList:list[str]) -> None:
                         "                      ",
                         "and.. I can hear you..",
                         "Thanks For playing.   "]
-            
+            print("\n")
             for i in dialouge:
                 print(f" Mind-Reader: {i}", end='\r')
                 time.sleep(0.88)
             print("\n")
-            
-            while True:
-                user = input("(p)lay again or (e)xit?: ")
-                
-                if user.lower() == 'p':
-                    time.sleep(.23)
-                    sys(f'{system}')
-                    return main(sysUser)
-                elif user.lower() == 'e':
-                    print("\nbye")
-                    break
-                else:
-                    continue        
+            break        
         else:
             break
     
