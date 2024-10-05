@@ -72,7 +72,7 @@ class shuffle:
             deck3.append(bot.words[0])
             bot.words.remove(bot.words[0]) 
 
-# Checks what terminal you are using in-order to implement if it's "CLS" or "CLEARs"
+# Checks what terminal you are using in-order to implement if it's "CLS" or "CLEAR"
 def device(Device, INT:int) -> str:
     # This returns the way os.system() will clear the terminal.
     if INT == 1:
